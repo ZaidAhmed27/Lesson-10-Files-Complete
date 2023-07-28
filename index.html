@@ -21,8 +21,8 @@
 		const header = document.querySelector('header');
 		const section = document.querySelector('section');
 		/* STEP 3: Store the URL of a JSON file in a variable */
-		const requestURL = 'https://github.com/ZaidAhmed27/Lesson-10-Files-Complete/blob/main/js/i-scream.json';
-		
+		const requestURL = 'js/i-scream.json'; // Use forward slashes instead of backslashes
+
 		/* STEP 4: Create a new XHR object */
 		const request = new XMLHttpRequest();
 		/* STEP 5: Open a new request using the open() method */
@@ -63,7 +63,7 @@
 				const p2 = document.createElement('p');
 				const list = document.createElement('ul');
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-				img.setAttribute('src', 'https://github.com/ZaidAhmed27/Lesson-10-Files-Complete/tree/main/images/' + topFlavors[i].image);
+				img.setAttribute('src', '/images/' + topFlavors[i].image); // Include a forward slash before "images"
 				img.setAttribute('alt', topFlavors[i].name);
 				h2.textContent = topFlavors[i].name;
 				p1.textContent = 'Calories: ' + topFlavors[i].calories;
@@ -90,6 +90,6 @@
 		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 		// A special thanks to https://openclipart.org/detail/285225/ice-cream-cones for the awesome ice cream cone illustrations
-		</script>
-	</body>
+	</script>
+</body>
 </html>

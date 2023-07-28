@@ -35,12 +35,12 @@ section article {
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
-	width:15%
+	width: 25%
 }
 article img {
 	display: block;
-	height: 125px;
-	width: 75px;
+	height: 150px;
+	width: 90px;
 }
 section p {
   margin: 5px 0;
