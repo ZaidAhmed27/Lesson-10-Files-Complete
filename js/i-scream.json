@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Black Walnut",
+      "calories": 405,
+      "type": "ice cream",
+      "ingredients": [
+        "walnut",
+        "cream",
+        "Sugar"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Chocolate Chip",
+      "calories": 550,
+      "type": "ice cream",
+      "ingredients": [
+        "dark chocolate chips",
+        "milk chocolate dip",
+        "candy sprinkles"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
